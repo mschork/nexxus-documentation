@@ -17,6 +17,10 @@
           "slug": "welcome"
         },
         {
+          "title": "How your content is organised",
+          "slug": "content-organisation"
+        },
+        {
           "title": "Page Types",
           "slug": "page-types"
         },
