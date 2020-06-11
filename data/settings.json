@@ -13,6 +13,10 @@
       "section": "Content Management",
       "topics": [
         {
+          "title": "Image specifications",
+          "slug": "image-specifications"
+        },
+        {
           "title": "Welcome to your Content Management Platform",
           "slug": "welcome"
         },
