@@ -1,7 +1,7 @@
 ---
-title: Theme configuration
-date: 2018-09-15T07:42:34.000+00:00
-slug: theme-configuration
+title: Styleguide and asset dimensions
+date: 
+slug: styleguide
 
 ---
 ## Changing logo
