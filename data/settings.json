@@ -13,6 +13,10 @@
       "section": "Content Management",
       "topics": [
         {
+          "title": "Welcome to your Content Management Platform",
+          "slug": "welcome"
+        },
+        {
           "title": "Page Types",
           "slug": "page-types"
         },
