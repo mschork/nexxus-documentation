@@ -1,7 +1,7 @@
 ---
 title: Nexxus.com
 date: 
-slug: ''
+slug: getting-started
 
 ---
 Nexxus.com is developed on a modern technology stack. The main components used are:
