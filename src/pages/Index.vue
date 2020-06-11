@@ -4,11 +4,22 @@
       <h1>{{ $static.metadata.siteName }} - {{ this.description }}</h1>
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
-        <Shortcut link="/getting-started" text="Introduction" icon="play-icon" />
-        <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />
-        <Shortcut link="/theme-configuration#changing-colors" text="Change colors" icon="eye-icon" />
+        <Shortcut
+          link="/getting-started"
+          text="Introduction"
+          icon="play-icon"
+        />
+        <Shortcut
+          link="/theme-configuration"
+          text="Configuration"
+          icon="sliders-icon"
+        />
+        <Shortcut
+          link="/theme-configuration#changing-colors"
+          text="Change colors"
+          icon="eye-icon"
+        />
       </nav>
-      <GitLink class="git" size="large" />
     </div>
   </Layout>
 </template>
@@ -22,28 +33,32 @@ query {
 </static-query>
 
 <script>
-import GitLink from '~/components/GitLink.vue'
-import Shortcut from '~/components/Shortcut.vue'
+import Shortcut from "~/components/Shortcut.vue";
 
 export default {
   components: {
-    GitLink,
-    Shortcut
+    Shortcut,
   },
   data() {
     return {
-      description: 'The ultimate static generated documentation theme for the JAM-stack'
-    }
+      description:
+        "The ultimate static generated documentation theme for the JAM-stack",
+    };
   },
   metaInfo() {
     return {
       title: this.description,
       meta: [
-        { key: 'description', name: 'description', content: 'A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click.' }
-      ]
-    }
-  }
-}
+        {
+          key: "description",
+          name: "description",
+          content:
+            "A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click.",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -74,15 +89,6 @@ nav {
 
   @include respond-above(sm) {
     flex-direction: row;
-  }
-}
-
-.git {
-  margin: 3em 0 0;
-  align-self: center;
-
-  @include respond-above(md) {
-    margin: 5em 0 0;
   }
 }
 </style>
