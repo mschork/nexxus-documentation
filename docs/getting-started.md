@@ -21,3 +21,7 @@ If you have any questions, please feel free to reach out to [markus.schork@unile
 ## Where to find the CMS
 
 You can find the CMS at [studio.nexxus.com](studio.nexxus.com "studio.nexxus.com").
+
+## Performance
+
+The site has been designed with performance in mind. 
