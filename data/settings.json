@@ -13,6 +13,10 @@
       "section": "Content Management",
       "topics": [
         {
+          "title": "Taxonomies",
+          "slug": "taxonomies"
+        },
+        {
           "title": "Deploying changes / Workflows",
           "slug": "deploying-changes-workflows"
         },
