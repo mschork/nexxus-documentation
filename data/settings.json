@@ -13,6 +13,10 @@
       "section": "Content Management",
       "topics": [
         {
+          "title": "Deploying changes / Workflows",
+          "slug": "deploying-changes-workflows"
+        },
+        {
           "title": "Welcome to your Studio",
           "slug": "welcome"
         },
