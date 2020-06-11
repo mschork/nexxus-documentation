@@ -1,6 +1,6 @@
 ---
 title: Page types
-date: 
+date: 2020-06-09
 slug: page-types
 
 ---
