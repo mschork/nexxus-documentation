@@ -1,14 +1,15 @@
 ---
-title: Theme configuration 
-date: 2018-09-15 07:42:34
+title: Theme configuration
+date: 2018-09-15T07:42:34.000+00:00
 slug: theme-configuration
+
 ---
-
 ## Changing logo
-Since there is a bright and a dark theme in Jamdocs, you will need two logotypes. Just replace the two svg files in `src/assets/img` where the dark on is named `logo-dark.svg` and the bright one is named `logo-bright.svg`. If you can´t provide SVG logos, you can just change the file format to for example PNG in line 5 and 10 `src/components/Logo.vue`.
 
+Since there is a bright and a dark theme in Jamdocs, you will need two logotypes. Just replace the two svg files in `src/assets/img` where the dark on is named `logo-dark.svg` and the bright one is named `logo-bright.svg`. If you can´t provide SVG logos, you can just change the file format to for example PNG in line 5 and 10 `src/components/Logo.vue`. This is amazing.
 
 ## Adding icons
+
 If you need to use icons somewhere in the theme, you can use any icon from [Feather Icons](https://feathericons.com/) as a component. All that is needed is that you import the icon in the component you want to use it like i do it in the theme switcher component:
 
 ```javascript
@@ -22,13 +23,14 @@ export default {
 ...
 ```
 
-And then the icon can be used like this: 
+And then the icon can be used like this:
 
 ```html
 <sun-icon class="sun" />
 ```
 
 ## Changing colors
+
 To change the theme colors you need to edit the file `src/assets/scss/config/_colors.scss`. When you open the file for the first time it will look like this:
 
 ```scss
@@ -47,6 +49,7 @@ $brandPrimary: #10c186;
 ```
 
 ## Changing font
+
 Jamdocs uses Source Sans Pro by default. I chose to embed the font in the project to increase page speed. To change the font, you just install another Google Font as a dependency, lets say you want Open Sans:
 
 ```bash
