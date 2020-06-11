@@ -13,3 +13,11 @@ Nexxus.com is developed on a modern technology stack. The main components used a
 * Sanity - Content platform
 * Algolia - Search as a Service
 * Other integrations with the Unilever D2 platform include SignUp, Contact-Us, TheAssetBank (TAB), IRI for StoreLocator, Buy It Now solution, BazaarVoice for Ratings & Reviews.
+
+This document will outline how to manage the content in Sanity.
+
+If you have any questions, please feel free to reach out to [markus.schork@unilever.com](mailto:markus.schork@unilever.com).
+
+## Where to find the CMS
+
+You can find the CMS at [studio.nexxus.com](studio.nexxus.com "studio.nexxus.com").
