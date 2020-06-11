@@ -13,10 +13,6 @@
       "section": "Content Management",
       "topics": [
         {
-          "title": "Image specifications",
-          "slug": "image-specifications"
-        },
-        {
           "title": "Welcome to your Content Management Platform",
           "slug": "welcome"
         },
@@ -27,6 +23,10 @@
         {
           "title": "Page Types",
           "slug": "page-types"
+        },
+        {
+          "title": "Images",
+          "slug": "image-specifications"
         },
         {
           "title": "Theme configuration (old)",
