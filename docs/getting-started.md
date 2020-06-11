@@ -8,10 +8,10 @@ slug: getting-started
 
 Nexxus.com is developed on a modern technology stack. The main components used are:
 
-* Netlify - CI/CD pipeline and CDN hosting
-* Gridsome - Static Site Generator based on the Vue framework
-* Sanity - Content platform
-* Algolia - Search as a Service
+* [Netlify](netlify.com) - CI/CD pipeline and CDN hosting
+* [Gridsome](https://gridsome.org/) - Static Site Generator based on the Vue framework
+* [Sanity](https://sanity.io/) - Content platform
+* [Algolia](https://algolia.com/) - Search as a Service
 * Other integrations with the Unilever D2 platform include SignUp, Contact-Us, TheAssetBank (TAB), IRI for StoreLocator, Buy It Now solution, BazaarVoice for Ratings & Reviews.
 
 This document will outline how to manage the content in Sanity.
