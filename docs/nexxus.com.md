@@ -1,7 +1,7 @@
 ---
-title: Nexxus.com
-date: 
-slug: getting-started
+title: Content Management
+date: 2020-06-09
+slug: content-management
 
 ---
 Nexxus.com is developed on a modern technology stack. The main components used are:
